@@ -4,7 +4,7 @@ function lowerCaseDrivers(arr) {
 }
 
 function nameToAttributes(arr) {
-  return arr.map(function (user) { return { firstName: user.split(' ')[0] }); })
+  return arr.map(function (name) { return {firstName:name.split(' ')[0],lastName:name.split(' ')[1]}); })
 }
 
 function attributesToPhrase(obj) {
