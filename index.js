@@ -1,6 +1,6 @@
 // Code your solution in this file.
 function lowerCaseDrivers(arr) {
-  arr.map(function (name){return name})
+  map(arr, function (name){return name.toDownCase()})
 }
 
 function nameToAttributes(obj) {
