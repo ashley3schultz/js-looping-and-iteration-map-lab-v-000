@@ -1,12 +1,12 @@
 // Code your solution in this file.
-function lowerCaseDrivers() {
-  
+function lowerCaseDrivers(arr) {
+
 }
 
-function nameToAttributes() {
-  
+function nameToAttributes(obj) {
+
 }
 
-function attributesToPhrase() {
-  
+function attributesToPhrase(obj) {
+
 }
