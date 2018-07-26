@@ -8,5 +8,5 @@ function nameToAttributes(arr) {
 }
 
 function attributesToPhrase(obj) {
-  return obj.map(function (user) {return Object.assign({}, user, { firstName: 'test' }); })
+  return obj.map(function (user) { return user.name })
 }
