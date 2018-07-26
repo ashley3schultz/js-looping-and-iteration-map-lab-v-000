@@ -4,7 +4,7 @@ function lowerCaseDrivers(arr) {
 }
 
 function nameToAttributes(obj) {
-  return arr.map(function (name){ object.assign(firstName: name.first, lastName: name.last) })
+  return arr.map(function (name){ return Object.assign({}, name, {firstName: name.first, lastName: name.last}) })
 }
 
 function attributesToPhrase(obj) {
